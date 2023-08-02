@@ -4,8 +4,8 @@ body {background-image: url(imagens/Captura\ de\ Tela\ \(2018\).png);
     background-size: cover;
     background-position: center center;}
 section {
-    padding: auto;
-    margin: 20px;
+    float: none;
+    margin: 5px;
     background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.700), #418d8c);
     /*background-image: url(imagens/Captura\ de\ Tela\ \(2018\).png);*/
     background-attachment: fixed;
