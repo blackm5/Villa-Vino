@@ -4,7 +4,7 @@ body {background-image: url(imagens/Captura\ de\ Tela\ \(2018\).png);
     background-size: cover;
     background-position: center center;}
 section {
-    float: none;
+    float: center;
     margin: 5px;
     background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.700), #418d8c);
     /*background-image: url(imagens/Captura\ de\ Tela\ \(2018\).png);*/
