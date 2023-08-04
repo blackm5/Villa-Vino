@@ -1,17 +1,17 @@
 @charset "UTF-8";
-body {background-image: url(imagens/Captura\ de\ Tela\ \(2018\).png);
+body {background-image: url(imagens/Background/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;}
 section {
-    float: center;
-    margin: 5px;
+    margin: 15px;
     background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.700), #418d8c);
     /*background-image: url(imagens/Captura\ de\ Tela\ \(2018\).png);*/
     background-attachment: fixed;
-}
+    background-position: center center;}
 img {margin: auto;}
 #one {float: left;}
 #two {float: right;}
 .barra {border: 0px;}
 nav {text-align: right; margin: 0px;}
+nav > button {border-radius: 500px; box-sizing: content-box;}
