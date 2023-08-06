@@ -1,17 +1,21 @@
 @charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;}
+header { margin: 15px;}
+header > h1 {text-align: center; height: auto;}
 body {background-image: url(imagens/Background/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;}
 section {
-    margin: 15px;
-    background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.700), #418d8c);
+    margin-right: 30px;
+    margin-left: 30px;
+    background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.600), #418d8c);
     /*background-image: url(imagens/Captura\ de\ Tela\ \(2018\).png);*/
     background-attachment: fixed;
     background-position: center center;}
-img {margin: auto;}
-#one {float: left;}
-#two {float: right;}
-.barra {border: 0px;}
-nav {text-align: right; margin: 0px;}
-nav > button {border-radius: 500px; box-sizing: content-box;}
+footer {background-image: radial-gradient(rgba(0, 0, 0, 0.5),black); margin-top: 20px;}
+.footer {display: inline;}
+#footer {background-color:black;}
+.end {display: inline;}
