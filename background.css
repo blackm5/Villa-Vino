@@ -8,14 +8,28 @@ body {background-image: url(imagens/Background/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;}
-section {
-    margin-right: 30px;
-    margin-left: 30px;
+article {
+    margin-right: 15px;
+    margin-left: 15px;
     background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.600), #418d8c);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;}
-footer {background-image: radial-gradient(rgba(0, 0, 0, 0.5),black); margin-top: 20px;}
-.footer {display: inline;}
-#footer {background-color:black;}
-.end {display: inline;}
+    position: inherit;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+.numeros { 
+    height: 28px;
+    width: 28px;
+    background-color: #007977;
+    border-radius: 100%;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+footer {
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5),black); 
+    margin-top: 20px; position: inherit}
+.footer {
+    display: inline;}
+#footer {
+    background-color:black; 
+    position: inherit}
+.end {
+    display: inline;}
