@@ -2,32 +2,33 @@
 * {
     margin: 0px;
     padding: 0px;}
-header { margin: 15px;}
-header > h1 {text-align: center; height: auto;}
+    header {margin-bottom: 10px; margin-top: 10px;}
 body {background-image: url(imagens/Background/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;}
+    background-position: center center;
+    margin: 0px;}
 section {
     margin-right: 15px;
     margin-left: 15px;
     background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.600), #418d8c);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
 .numeros { 
-    height: 28px;
-    width: 28px;
+    height: 15px;
+    width: 15px;
     background-color: #007977;
     border-radius: 100%;
-    padding: 10px;
-    margin-left: 5px;}
+    padding: 5px;
+    margin-left: 0px;
+    font-size: 0.6em;}
 footer {
     background-image: radial-gradient(rgba(0, 0, 0, 0.5),black);
-    position: inherit;}
+    position: inherit;
+    margin-top: 20px;}
 .footer {
     display: inline;}
 #footer {
     background-color:black;
-    margin-top: 20px; 
-    position: inherit;}
+    margin-top: 0px;}
 .end {
     display: inline;}
