@@ -6,8 +6,7 @@
 body {background-image: url(imagens/Background/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    margin: 0px;}
+    background-position: center center;}
 section {
     margin-right: 15px;
     margin-left: 15px;
@@ -23,7 +22,6 @@ section {
     font-size: 0.6em;}
 footer {
     background-image: radial-gradient(rgba(0, 0, 0, 0.5),black);
-    position: inherit;
     margin-top: 20px;}
 .footer {
     display: inline;}
