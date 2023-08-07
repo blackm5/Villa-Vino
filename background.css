@@ -9,10 +9,9 @@ body {background-image: url(imagens/Background/background.png);
     background-size: cover;
     background-position: center center;}
 section {
-    /*margin-right: 15px;
-    margin-left: 15px;*/
+    margin-right: 15px;
+    margin-left: 15px;
     background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.600), #418d8c);
-    position: inherit;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
 .numeros { 
     height: 28px;
