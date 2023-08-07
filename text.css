@@ -36,8 +36,7 @@
         url('font/ArgentumNovus-BoldItalic.ttf') format('truetype'),
         url('font/ArgentumNovus-ExtraBold.ttf') format('truetype'),
         url('font/ArgentumNovus-ExtraBoldItalic.ttf') format('truetype'),
-        url('font/ArgentumNovus-Italic.ttf') format('truetype');*/
-}
+        url('font/ArgentumNovus-Italic.ttf') format('truetype');*/}
 body {font:
     normal 300 1.5em 
     'ArgentumNovusLight',
@@ -59,12 +58,22 @@ body {font:
     'ArgentumNovusExtraBold',
     'ArgentumNovusExtraBoldItalic',
     'ArgentumNovusItalic',*/
-    color: white;
-}
-h1 {text-align: center; margin: 0px; font: italic 400 1.5em 'Berkshire Swash', cursive, Arial, Helvetica, sans-serif;}
-h2 {display: flex; align-items: center; justify-content: center;}
-h3 {text-align: center; font-weight: lighter; font-size: 0.7em;}
-p {padding: 10px; font-size: 0.8em;}
+    color: white;}
+h1 {
+    text-align: center; 
+    margin: 0px; 
+    font: italic 400 1.5em 'Berkshire Swash', cursive, Arial, Helvetica, sans-serif;}
+h2 {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;}
+h3 {
+    text-align: center; 
+    font-weight: lighter; 
+    font-size: 0.7em;}
+p {
+    padding: 10px; 
+    font-size: 0.8em;}
 button {
     background-image: url(imagens/icones/3.png);
     background-repeat: no-repeat;
@@ -73,8 +82,11 @@ button {
     border-radius: 100%;
     padding: 10px;
     box-shadow: 2px 2px 5px hsla(178, 100%, 7%, 0.7);}
-.preco {float: right;}
-.sub {font-size: 0.7em; font-style: italic;}
+.preco {
+    float: right;}
+.sub {
+    font-size: 0.7em; 
+    font-style: italic;}
 .subtexto {
     font-style: italic;
     font-weight: lighter; 
@@ -92,15 +104,15 @@ button {
     outline: auto;
     margin-right: 20px;
     margin-top: 10px;
-    margin-bottom: 2px;
-}
+    margin-bottom: 2px;}
 #imgfooter {
     margin-left: 20px;
-    margin-top: 10px;
-}
+    margin-top: 10px;}
 .end {
     font: normal 100 0.6em Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
     margin-left: 5px;}
-.end:hover {text-decoration: underline; color: lightblue;}
+.end:hover {
+    text-decoration: underline; 
+    color: lightblue;}
