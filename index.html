@@ -26,9 +26,11 @@
                     </div>
                     <h1>Entradas</h1>
                     <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2><br>
-                        <p><sup><button></button></sup> Varalde frios <span class="preco">89,<sup>90</sup></span></p>
-                        <p><sup><button></button></sup> Queijo Brie Folhado <span class="preco">79,<sup>90</sup></span></p>
-                        <p><sup><button></button></sup> Burrata <span class="preco">79,<sup>90</sup></span></p>
+                        <p><sup><button onclick="div()" ></button></sup> Varalde frios <span class="preco">89,<sup>90</sup></span></p>
+                        <p><sup><button onclick="Brie()"></button></sup> Queijo Brie Folhado <span class="preco">79,<sup>90</sup></span></p>
+                            <div id="Brie"></div>
+                        <p><sup><button onclick="Burrata()"></button></sup> Burrata <span class="preco">79,<sup>90</sup></span></p>
+                            <div id="Burrata"></div>
                         <div>
                             <picture>
                                 <source media="(max-width= 270px)" srcset="imagens/Imagens de fundo/entradas/Entradas02.1.png" type="image/png">
@@ -54,17 +56,28 @@
                     </div>
                     <h1>Pizzas Salgadas</h1>
                     <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
-                        <p><sup><button></button></sup> Caprese <span class="preco">63,<sup>90</sup></span></p>
-                        <p><sup><button></button></sup> Genovese <span class="preco">63,<sup>90</sup></span></p>
-                        <p><sup><button></button></sup> Romana <span class="preco">63,<sup>90</sup></span></p>
-                        <p><sup><button></button></sup> Royale <span class="preco">63,<sup>90</sup></span></p>
-                        <p><sup><button></button></sup> Capri <span class="preco">63,<sup>90</sup></span></p>
-                        <p><sup><button></button></sup> Toscana  <span class="preco">63,<sup>90</sup></span></p><br>
+                        <p><sup><button onclick="Caprese()"></button></sup> Caprese <span class="preco">63,<sup>90</sup></span></p>
+                            <div id="Caprese"></div>
+                        <p><sup><button onclick="Genovese()"></button></sup> Genovese <span class="preco">63,<sup>90</sup></span></p>
+                            <div id="Genovese"></div>
+                        <p><sup><button onclick="Romana()"></button></sup> Romana <span class="preco">63,<sup>90</sup></span></p>
+                            <div id="Romana"></div>
+                        <p><sup><button onclick="Royale()"></button></sup> Royale <span class="preco">63,<sup>90</sup></span></p>
+                            <div id="Royale"></div>
+                        <p><sup><button onclick="Capri()"></button></sup> Capri <span class="preco">63,<sup>90</sup></span></p>
+                            <div id="Capri"></div>
+                        <p><sup><button onclick="Toscana()"></button></sup> Toscana  <span class="preco">63,<sup>90</sup></span></p><br>
+                            <div id="Toscana"></div>
                     <h1>Pizzas Doces</h1>
                     <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
-                        <p><sup><button></button></sup> Romeu e Julieta <span class="preco">19,<sup>90</sup></span></p>
-                        <p><sup><button></button></sup> Cartola <span class="preco">19,<sup>90</sup></span></p>
-                        <p><sup><button></button></sup> Veneza <span class="preco">19,<sup>90</sup></span></p><br><hr>
+                    <h3>(Individual)</h3>
+                        <p><sup><button onclick="Julieta()"></button></sup> Romeu e Julieta <span class="preco">19,<sup>90</sup></span></p>
+                            <div id="Julieta"></div>
+                        <p><sup><button onclick="Cartola()"></button></sup> Cartola <span class="preco">19,<sup>90</sup></span></p>
+                            <div id="Cartola"></div>
+                        <p><sup><button onclick="Veneza()"></button></sup> Veneza <span class="preco">19,<sup>90</sup></span></p><br>
+                            <div id="Veneza"></div>
+                            <hr>
                 </div>
                 <div>
                     <h1>Bebidas</h1>
@@ -380,5 +393,6 @@
                     <a href="https://goo.gl/maps/oWsmadM6Ht3oumWLA" target="_blank" rel="external" class="end">R. 1 Ch. 25/2, St. Hab.Vicente Pires</a>
                 </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
