@@ -91,7 +91,7 @@ button {
     font-style: italic;
     font-weight: lighter; 
     font-size: 0.6em;
-    margin-left: 60px;}
+    margin-left: 40px;}
 #driver {
     float: right;
     text-align: justify; 
@@ -107,12 +107,14 @@ button {
     margin-bottom: 2px;}
 #imgfooter {
     margin-left: 20px;
-    margin-top: 10px;}
+    margin-top: 10px;
+    max-width:118px;
+    max-height:80px;}
 .end {
     font: normal 100 0.6em Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: none;
-    margin-left: 5px;}
+    margin-left: 11px;}
 .end:hover {
     text-decoration: underline; 
     color: lightblue;}

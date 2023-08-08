@@ -5,6 +5,35 @@
 header {
     margin-bottom: 10px; 
     margin-top: 10px;}
+#vilavino {
+    max-width:300px;
+    max-height:177px;}
+#entradas01 {
+    max-width:60px;
+    max-height:90px;
+    float: right;
+    margin-top: 0px;}
+#entradas02 {
+    max-width:60px;
+    max-height:90px;}
+#pizzas01 {
+    max-width:90px;
+    max-height:90px;}
+#pizzas02 {
+    max-width:70px;
+    max-height:100px;
+    float: right;
+    margin-top: 0px;}
+#bebidas {
+    max-width:90px;
+    max-height:120px;
+    margin-left: 20px;}
+.alcool {
+    max-width:140px;
+    max-height:49px;}
+.logo {
+    max-width:20px;
+    max-height:20px;}
 body {
     background-image: url(imagens/Background/background.png);
     background-repeat: no-repeat;
@@ -13,7 +42,7 @@ body {
 section {
     margin-right: 15px;
     margin-left: 15px;
-    background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.600), #418d8c);
+    background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.700), hsla(179, 37%, 40%, 0.9), hsl(177, 37%, 35%));
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
 .numeros { 
     height: 15px;
