@@ -1,48 +1,69 @@
 /*alert('Seja bem-vindo ao Villa Vino!')*/
 function Brie() {
-    var Brie = window.document.querySelector('div#Brie')
-    Brie.innerHTML = `<p class="infor">&#x02022;Queijo Brie;<br>&#x02022;Massa folhada e <br>&#x02022;Geleia Artesanal de Morango.</p>`
+    let Brie = window.document.querySelector('div#Brie')
+    /*Brie.innerHTML = `<p class="infor">&#x02022;Queijo brie;<br>&#x02022;Massa folhada e <br>&#x02022;Geleia artesanal de morango.</p>`*/
+    if (Brie.classList.contains('inforbrie')) { Brie.classList.remove('inforbrie')
+    } else {Brie.classList.add('inforbrie')}
 }
 function Burrata() {
     var Burrata = window.document.querySelector('div#Burrata')
-    Burrata.innerHTML = `<p class="infor">&#x02022;Burrata;<br>&#x02022;Molho Artesanal Tomate Cereja Confitado;<br>&#x02022;Azeite Trufado e<br>&#x02022;Especiarias.</p>`
+    /*Burrata.innerHTML = `<p class="infor">&#x02022;Burrata;<br>&#x02022;Molho artesanal;<br>&#x02022;Tomate cereja confitado;<br>&#x02022;Azeite trufado e<br>&#x02022;Especiarias.</p>`*/
+    if (Burrata.classList.contains('inforburrata')) { Burrata.classList.remove('inforburrata')
+    } else {Burrata.classList.add('inforburrata')}
 }
 function Caprese() {
-    var Burrata = window.document.querySelector('div#Caprese')
-    Burrata.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela de búfala;<br>&#x02022;Rodelas de tomate;<br>&#x02022;Pesto de azeitonas pretas e<br>&#x02022;Folhas de manjericão.</p>`
+    var Caprese = window.document.querySelector('div#Caprese')
+    /*Burrata.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela de búfala;<br>&#x02022;Rodelas de tomate;<br>&#x02022;Pesto de azeitonas pretas e<br>&#x02022;Folhas de manjericão.</p>`*/
+    if (Caprese.classList.contains('inforcaprese')) { Caprese.classList.remove('inforcaprese')
+    } else {Caprese.classList.add('inforcaprese')}
 }
 function Genovese() {
     var Genovese  = window.document.querySelector('div#Genovese')
-    Genovese.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela de Búfala e<br>&#x02022;Pesto de manjericão.</p>`
+    /*Genovese.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela de búfala e<br>&#x02022;Pesto de manjericão.</p>`*/
+    if (Genovese.classList.contains('inforgenovese')) { Genovese.classList.remove('inforgenovese')
+    } else {Genovese.classList.add('inforgenovese')}
 }
 function Romana() {
     var Romana = window.document.querySelector('div#Romana')
-    Romana.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela;<br>&#x02022;Gorgonzola;<br>&#x02022;Catupiry original e<br>&#x02022;Parmesão.</p>`
+    /*Romana.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela;<br>&#x02022;Gorgonzola;<br>&#x02022;Catupiry original e<br>&#x02022;Parmesão.</p>`*/
+    if (Romana.classList.contains('inforromana')) { Romana.classList.remove('inforromana')
+    } else {Romana.classList.add('inforromana')}
 }
 function Royale() {
     var Royale = window.document.querySelector('div#Royale')
-    Royale.innerHTML = `<p class="infor">&#x02022;Molho de Tomates frescos;<br>&#x02022;Muçarela;<br>&#x02022;Presunto royale;<br>&#x02022;Queijo brie  e<br>&#x02022;Geléia de Morango.</p>`
+    /*Royale.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela;<br>&#x02022;Presunto royale;<br>&#x02022;Queijo brie  e<br>&#x02022;Geléia de morango.</p>`*/
+    if (Royale.classList.contains('inforroyale')) { Royale.classList.remove('inforroyale')
+    } else {Royale.classList.add('inforroyale')}
 }
 function Capri() {
     var Capri = window.document.querySelector('div#Capri')
-    Capri.innerHTML = `<p class="infor">&#x02022;Molho de Tomates frescos;<br>&#x02022;Muçarela;<br>&#x02022;Carne de Sol desfiada;<br>&#x02022;Queijo coalho  e<br>&#x02022;Catupiry original.</p>`
+    /*Capri.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela;<br>&#x02022;Carne de sol desfiada;<br>&#x02022;Queijo coalho  e<br>&#x02022;Catupiry original.</p>`*/
+    if (Capri.classList.contains('inforcapri')) { Capri.classList.remove('inforcapri')
+    } else {Capri.classList.add('inforcapri')}
 }
 function Toscana() {
     var Toscana = window.document.querySelector('div#Toscana')
-    Toscana.innerHTML = `<p class="infor">&#x02022;Molho de Tomates frescos;<br>&#x02022;Calabresa defumada  e<br>&#x02022;Cebola roxa.</p>`
+    /*Toscana.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Calabresa defumada  e<br>&#x02022;Cebola roxa.</p>`*/
+    if (Toscana.classList.contains('infortoscana')) { Toscana.classList.remove('infortoscana')
+    } else {Toscana.classList.add('infortoscana')}
 }
 function Julieta() {
     var Julieta = window.document.querySelector('div#Julieta')
-    Julieta.innerHTML = `<p class="infor">&#x02022;Goiabada Cascão;<br>&#x02022;Queijo Canastra  e<br>&#x02022;Crumble de castanha.</p>`
+    /*Julieta.innerHTML = `<p class="infor">&#x02022;Goiabada Cascão;<br>&#x02022;Queijo Canastra  e<br>&#x02022;Crumble de castanha.</p>`*/
+    if (Julieta.classList.contains('inforjulieta')) { Julieta.classList.remove('inforjulieta')
+    } else {Julieta.classList.add('inforjulieta')}
 }
-
 function Cartola() {
     var Cartola = window.document.querySelector('div#Cartola')
-    Cartola.innerHTML = `<p class="infor">&#x02022;Banana caramelada;<br>&#x02022;Queijo muçarela;<br>&#x02022;Finalizada com canela  e açúcar.</p>`
+    /*Cartola.innerHTML = `<p class="infor">&#x02022;Banana caramelada;<br>&#x02022;Queijo muçarela;<br>&#x02022;Finalizada com canela  e açúcar.</p>`*/
+    if (Cartola.classList.contains('inforcartola')) { Cartola.classList.remove('inforcartola')
+    } else {Cartola.classList.add('inforcartola')}
 }
 function Veneza() {
     var Veneza = window.document.querySelector('div#Veneza')
-    Veneza.innerHTML = `<p class="infor">&#x02022;Uva verde;<br>&#x02022;Queijo muçarela;<br>&#x02022;Ganache  e<br>&#x02022;Chocolate.</p>`
+    /*Veneza.innerHTML = `<p class="infor">&#x02022;Uva verde;<br>&#x02022;Queijo muçarela;<br>&#x02022;Ganache  e<br>&#x02022;Chocolate.</p>`*/
+    if (Veneza.classList.contains('inforveneza')) { Veneza.classList.remove('inforveneza')
+    } else {Veneza.classList.add('inforveneza')}
 }
 /*function () {
     var  = window.document.querySelector('div#')

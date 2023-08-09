@@ -82,7 +82,7 @@ button {
     border-radius: 100%;
     padding: 10px;
     box-shadow: 2px 2px 5px hsla(178, 100%, 7%, 0.7);}
-.infor { 
+.inforbrie {
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 5px;
@@ -90,6 +90,97 @@ button {
     border-radius: 11px;
     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforbrie::after {content: '(Queijo brie, Massa folhada e Geleia artesanal de morango.)'}
+.inforburrata {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforburrata::after {content: '(Burrata, Molho artesanal, Tomate cereja confitado, Azeite trufado e Especiarias.)'}
+.inforcaprese {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforcaprese::after {content: '(Molho de tomates frescos, Muçarela de búfala, Rodelas de tomate, Pesto de azeitonas pretas e Folhas de manjericão.)'}
+.inforgenovese {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforgenovese::after {content: '(Molho de tomates frescos, Muçarela de búfala e Pesto de manjericão.)'}
+.inforromana {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforromana::after {content: '(Molho de tomates frescos, Muçarela, Gorgonzola, Catupiry original e Parmesão.)'}
+.inforroyale {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforroyale::after {content: '(Molho de tomates frescos, Muçarela, Presunto royale, Queijo brie  e Geléia de morango.)'}
+.inforcapri {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforcapri::after {content: '(Molho de tomates frescos, Muçarela, Carne de sol desfiada, Queijo coalho  e Catupiry original.)'}
+.infortoscana {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.infortoscana::after {content: '(Molho de tomates frescos, Calabresa defumada e Cebola roxa.)'}
+.inforjulieta {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforjulieta::after {content: '(Goiabada Cascão, Queijo Canastra  e Crumble de castanha.)'}
+.inforcartola {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforcartola::after {content: '(Banana caramelada, Queijo muçarela, Finalizada com canela  e açúcar.)'}
+.inforveneza {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 15px;
+    border-radius: 11px;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
+.inforveneza::after {content: '(Uva verde, Queijo muçarela, Ganache  e Chocolate.)'}
 .preco {
     float: right;}
 .sub {
