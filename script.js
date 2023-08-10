@@ -1,4 +1,15 @@
-/*alert('Seja bem-vindo ao Villa Vino!')*/
+alert('Seja bem-vindo ao Villa Vino!')
+function Frios() {
+    var Frios = window.document.querySelector('div#Frios')
+    /*Frios.innerHTML = `<p class="infor">&#x02022;;
+    <br>&#x02022;;
+    <br>&#x02022;;
+    <br>&#x02022;;
+    <br>&#x02022;  e
+    <br>&#x02022;.</p>`*/
+    if (Frios.classList.contains('inforfrios')) { Frios.classList.remove('inforfrios')
+    } else {Frios.classList.add('inforfrios')}
+}
 function Brie() {
     let Brie = window.document.querySelector('div#Brie')
     /*Brie.innerHTML = `<p class="infor">&#x02022;Queijo brie;<br>&#x02022;Massa folhada e <br>&#x02022;Geleia artesanal de morango.</p>`*/
@@ -73,4 +84,6 @@ function Veneza() {
     <br>&#x02022;;
     <br>&#x02022;  e
     <br>&#x02022;.</p>`
-}*/
+}
+if (.classList.contains('infor')) { .classList.remove('infor')
+    } else {.classList.add('infor')}*/
