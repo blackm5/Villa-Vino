@@ -1,4 +1,4 @@
-alert('Seja bem-vindo ao Villa Vino!')
+//alert('Seja bem-vindo ao Villa Vino!')
 function Frios() {
     var Frios = window.document.querySelector('div#Frios')
     /*Frios.innerHTML = `<p class="infor">&#x02022;;
@@ -21,6 +21,11 @@ function Burrata() {
     /*Burrata.innerHTML = `<p class="infor">&#x02022;Burrata;<br>&#x02022;Molho artesanal;<br>&#x02022;Tomate cereja confitado;<br>&#x02022;Azeite trufado e<br>&#x02022;Especiarias.</p>`*/
     if (Burrata.classList.contains('inforburrata')) { Burrata.classList.remove('inforburrata')
     } else {Burrata.classList.add('inforburrata')}
+}
+function Petit() {
+    var Petit = window.document.querySelector('div#Petit')
+    if (Petit.classList.contains('inforpetit')) { Petit.classList.remove('inforpetit')
+    } else {Petit.classList.add('inforpetit')}
 }
 function Caprese() {
     var Caprese = window.document.querySelector('div#Caprese')
@@ -58,12 +63,6 @@ function Toscana() {
     if (Toscana.classList.contains('infortoscana')) { Toscana.classList.remove('infortoscana')
     } else {Toscana.classList.add('infortoscana')}
 }
-function Julieta() {
-    var Julieta = window.document.querySelector('div#Julieta')
-    /*Julieta.innerHTML = `<p class="infor">&#x02022;Goiabada Cascão;<br>&#x02022;Queijo Canastra  e<br>&#x02022;Crumble de castanha.</p>`*/
-    if (Julieta.classList.contains('inforjulieta')) { Julieta.classList.remove('inforjulieta')
-    } else {Julieta.classList.add('inforjulieta')}
-}
 function Cartola() {
     var Cartola = window.document.querySelector('div#Cartola')
     /*Cartola.innerHTML = `<p class="infor">&#x02022;Banana caramelada;<br>&#x02022;Queijo muçarela;<br>&#x02022;Finalizada com canela  e açúcar.</p>`*/
@@ -87,3 +86,28 @@ function Veneza() {
 }
 if (.classList.contains('infor')) { .classList.remove('infor')
     } else {.classList.add('infor')}*/
+function Caipirosca() {
+    var Caipirosca = window.document.querySelector('div#Caipirosca')
+    if (Caipirosca.classList.contains('inforcaipirosca')) { Caipirosca.classList.remove('inforcaipirosca')
+    } else {Caipirosca.classList.add('inforcaipirosca')}
+}
+function Moscowmule() {
+    var Moscowmule = window.document.querySelector('div#Moscowmule')
+    if (Moscowmule.classList.contains('informoscowmule')) { Moscowmule.classList.remove('informoscowmule')
+    } else {Moscowmule.classList.add('informoscowmule')}
+}
+function Aperol() {
+    var Aperol = window.document.querySelector('div#Aperol')
+    if (Aperol.classList.contains('inforaperol')) { Aperol.classList.remove('inforaperol')
+    } else {Aperol.classList.add('inforaperol')}
+}
+function Gin() {
+    var Gin = window.document.querySelector('div#Gin')
+    if (Gin.classList.contains('inforgin')) { Gin.classList.remove('inforgin')
+    } else {Gin.classList.add('inforgin')}
+}
+function Clericot() {
+    var Clericot = window.document.querySelector('div#Clericot')
+    if (Clericot.classList.contains('inforclericot')) { Clericot.classList.remove('inforclericot')
+    } else {Clericot.classList.add('inforclericot')}
+}

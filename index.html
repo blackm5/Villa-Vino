@@ -18,7 +18,7 @@
     </header>
         <main>
             <section>
-                    <div><br>
+                    <!--Entradas--><div><br>
                         <span>
                             <picture>
                                 <source media="(max-width= 270px)" srcset="imagens/Imagens de fundo/entradas/Entradas01.1.png" type="image/png">
@@ -27,12 +27,13 @@
                         </span>
                         <h1>Entradas</h1>
                         <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2><br>
-                            <p><sup><button onclick="Frios()"></button></sup> Varal de frios <span class="preco">89,<sup>90</sup></span></p>
+                            <p><sup><button onclick="Frios()"></button></sup> Carpaccio <span class="preco">69,<sup>00</sup></span></p>
                                 <div id="Frios"></div>
-                            <p><sup><button onclick="Brie()"></button></sup> Queijo Brie Folhado <span class="preco">79,<sup>90</sup></span></p>
+                            <p><sup><button onclick="Brie()"></button></sup> Queijo Brie no Pão <span class="preco">85,<sup>00</sup></span></p>
                                 <div id="Brie"></div>
-                            <p><sup><button onclick="Burrata()"></button></sup> Burrata <span class="preco">79,<sup>90</sup></span></p>
+                            <p><sup><button onclick="Burrata()"></button></sup> Burrata <span class="preco">85,<sup>00</sup></span></p>
                                 <div id="Burrata"></div>
+                            <p class="mar"> Porção de Pão <span class="preco">8,<sup>00</sup></span></p>
                             <span>
                                 <picture>
                                     <source media="(max-width= 270px)" srcset="imagens/Imagens de fundo/entradas/Entradas02.1.png" type="image/png">
@@ -41,7 +42,13 @@
                             </span>
                             <hr>
                     </div>
-                    <div>
+                    <!--Sobremesa--><div>
+                        <h1>Sobremesa</h1>
+                            <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                                <p><sup><button onclick="Petit()"></button></sup> Petit Gateau  <span class="preco">35,<sup>00</sup></span></p>
+                                    <div id="Petit"></div>
+                    </div><hr>
+                    <!--Pizzas--><div>
                         <br>
                         <span class="figura">
                             <picture>
@@ -58,49 +65,61 @@
                         </span>
                         <h1>Pizzas Salgadas</h1>
                         <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
-                            <p><sup><button onclick="Caprese()"></button></sup> Caprese <span class="preco">63,<sup>90</sup></span></p>
+                        <h3>Pizzas Napolitana de longa fermentação com molho
+                            de tomate italiano caseiro (30 cm)</h3>
+                            <p><sup><button onclick="Caprese()"></button></sup> Caprese <span class="preco">69,<sup>90</sup></span></p>
                                 <div id="Caprese"></div>
-                            <p><sup><button onclick="Genovese()"></button></sup> Genovese <span class="preco">63,<sup>90</sup></span></p>
+                            <p><sup><button onclick="Genovese()"></button></sup> Genovese <span class="preco">69,<sup>90</sup></span></p>
                                 <div id="Genovese"></div>
-                            <p><sup><button onclick="Romana()"></button></sup> Romana <span class="preco">63,<sup>90</sup></span></p>
-                                <div id="Romana"></div>
-                            <p><sup><button onclick="Royale()"></button></sup> Royale <span class="preco">63,<sup>90</sup></span></p>
-                                <div id="Royale"></div>
-                            <p><sup><button onclick="Capri()"></button></sup> Capri <span class="preco">63,<sup>90</sup></span></p>
+                            <p><sup><button onclick="Capri()"></button></sup> Capri <span class="preco">69,<sup>90</sup></span></p>
                                 <div id="Capri"></div>
-                            <p><sup><button onclick="Toscana()"></button></sup> Toscana  <span class="preco">63,<sup>90</sup></span></p>
+                            <p><sup><button onclick="Toscana()"></button></sup> Toscana  <span class="preco">69,<sup>90</sup></span></p>
                                 <div id="Toscana"></div>
+                            <p><sup><button onclick="Romana()"></button></sup> Pisa <span class="preco">75,<sup>00</sup></span></p>
+                                <div id="Romana"></div>
+                            <p><sup><button onclick="Royale()"></button></sup> Positano <span class="preco">75,<sup>00</sup></span></p>
+                                <div id="Royale"></div>
                                 <br>
                         <h1>Pizzas Doces</h1>
                         <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
                         <h3>(Individual)</h3>
-                            <p><sup><button onclick="Julieta()"></button></sup> Romeu e Julieta <span class="preco">19,<sup>90</sup></span></p>
-                                <div id="Julieta"></div>
-                            <p><sup><button onclick="Cartola()"></button></sup> Cartola <span class="preco">19,<sup>90</sup></span></p>
+                            <p><sup><button onclick="Cartola()"></button></sup> Cartola <span class="preco">25,<sup>00</sup></span></p>
                                 <div id="Cartola"></div>
-                            <p><sup><button onclick="Veneza()"></button></sup> Veneza <span class="preco">19,<sup>90</sup></span></p>
+                            <p><sup><button onclick="Veneza()"></button></sup> Veneza <span class="preco">25,<sup>00</sup></span></p>
                                 <div id="Veneza"></div>
                                 <br><hr>
                     </div>
-                    <div>
+                    <!--Bebidas--><div>
                         <h1>Bebidas</h1>
                         <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
-                            <p>Água mineral <span class="preco">6,<sup>50</sup></span></p>
-                            <p>Água mineral com gás <span class="preco">7,<sup>00</sup></span></p>
-                            <p>Refrigerante <span class="preco">6,<sup>50</sup></span><br><span class="sub">(Lata)</span></p>
-                            <p>Suco de uva integral <span class="preco">10,<sup>00</sup></span><br><span class="sub">(Taça)</span></p>
-                            <p>Cerveja Artesanal <span class="preco">30,<sup>00</sup></span><br><span class="sub">(Consultar Rótulo)</span></p>
-                            <p>Taxa de Rolha  <span class="preco">90,<sup>00</sup></span></p>
-                            <p>Claricot Jarra <span class="preco">100,<sup>00</sup></span><br><span class="sub">(Com Espumante)</span></p>
-                            <p>Café Expresso  <span class="preco">7,<sup>00</sup></span></p>
-                            <div class="figura">
-                                <picture>
-                                    <source media="(max-width= 270px)" srcset="imagens/Imagens de fundo/bebidas/Bebidas0.1.png" type="image/png">
-                                    <img src="imagens/Imagens de fundo/bebidas/Bebidas0.1.png" alt="Bebidas" id="bebidas">
-                                </picture>
+                            <p>Água mineral <span class="preco">7,<sup>00</sup></span></p>
+                            <p>Água mineral com gás <span class="preco">7,<sup>50</sup></span></p>
+                            <p>Refrigerante <span class="preco">7,<sup>50</sup></span><br><span class="sub">(Lata)</span></p>
+                            <p>Suco de uva integral <span class="preco">12,<sup>00</sup></span><br><span class="sub">(Taça)</span></p>
+                            <p>Cerveja Artesanal <span class="preco">30,<sup>00</sup></span><br><span class="sub">(Baden Baden)</span></p>
+                            <p>Café Expresso  <span class="preco">8,<sup>00</sup></span></p>
+                            </div><hr>
+                    <!--Drinks--><div>
+                        <h1>Drinks</h1>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                            <p><sup><button onclick="Caipirosca()"></button></sup> Caipirosca <span class="preco">34,<sup>00</sup></span></p>
+                                <div id="Caipirosca"></div>
+                            <p><sup><button onclick="Moscowmule()"></button></sup> Moscowmule <span class="preco">36,<sup>00</sup></span></p>
+                                <div id="Moscowmule"></div>
+                            <p><sup><button onclick="Aperol()"></button></sup> Aperol <span class="preco">39,<sup>00</sup></span></p>
+                                <div id="Aperol"></div>
+                            <p><sup><button onclick="Gin()"></button></sup> Limoncello Gin <span class="preco">39,<sup>00</sup></span></p>
+                                <div id="Gin"></div>
+                            <p><sup><button onclick="Clericot()"></button></sup> Clericot <span class="preco">140,<sup>00</sup></span></p>
+                                <div id="Clericot"></div>
+                                    <div class="figura">
+                                    <picture>
+                                        <source media="(max-width= 270px)" srcset="imagens/Imagens de fundo/bebidas/Bebidas0.1.png" type="image/png">
+                                        <img src="imagens/Imagens de fundo/bebidas/Bebidas0.1.png" alt="Bebidas" id="bebidas">
+                                    </picture>      
                             </div><hr>
                     </div>
-                    <div>
+                    <!--Espumantes--><div>
                         <h1>Espumantes</h1>
                         <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
                             <h3>ITÁLIA</h3>
@@ -204,7 +223,7 @@
                                 <img src="imagens/Bebidas/Alcoolicas/Roses/13-uruguai.png" alt="13-uruguai" class="alcool">
                             </p><hr>
                     </div>
-                    <div>
+                    <!--Tintos--><div>
                         <h1>Tintos</h1>
                         <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
                         <div>
