@@ -127,15 +127,6 @@ button {
     background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforcaprese::after {content: '(Molho de tomates frescos, Muçarela de búfala, Rodelas de tomate, Pesto de azeitonas pretas e Folhas de manjericão.)'}
-.inforgenovese {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 5px;
-    padding: 15px;
-    border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
-    font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
-.inforgenovese::after {content: '(Molho de tomates frescos, Muçarela de búfala e Pesto de manjericão.)'}
 .inforromana {
     margin-left: 10px;
     margin-right: 10px;

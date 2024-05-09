@@ -33,12 +33,6 @@ function Caprese() {
     if (Caprese.classList.contains('inforcaprese')) { Caprese.classList.remove('inforcaprese')
     } else {Caprese.classList.add('inforcaprese')}
 }
-function Genovese() {
-    var Genovese  = window.document.querySelector('div#Genovese')
-    /*Genovese.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela de búfala e<br>&#x02022;Pesto de manjericão.</p>`*/
-    if (Genovese.classList.contains('inforgenovese')) { Genovese.classList.remove('inforgenovese')
-    } else {Genovese.classList.add('inforgenovese')}
-}
 function Romana() {
     var Romana = window.document.querySelector('div#Romana')
     /*Romana.innerHTML = `<p class="infor">&#x02022;Molho de tomates frescos;<br>&#x02022;Muçarela;<br>&#x02022;Gorgonzola;<br>&#x02022;Catupiry original e<br>&#x02022;Parmesão.</p>`*/
