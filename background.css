@@ -44,27 +44,30 @@ section {
     margin-left: 15px;
     background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.700), hsla(179, 37%, 40%, 0.9), hsl(177, 37%, 35%));
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
-#Carolina{
+.comum{
     margin: auto;
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    background: black url('imagens/Background/Carolina.png') center top no-repeat scroll;
     background-size: cover;
-    border: 5px solid hsl(177, 70%, 44%);
     box-shadow: 0px 0px 5px black;
     margin-bottom: 10px;
 }
+#conchiglione{
+    background: black url('imagens/Background/conchiglione.jpg') center center no-repeat scroll;
+    border: 5px solid hsl(177, 70%, 44%);
+}
+#risoto{
+    background: black url('imagens/Background/risoto.jpg') center center no-repeat scroll;
+    border: 5px solid hsl(177, 70%, 44%);
+}
+#Carolina{
+    background: black url('imagens/Background/Carolina.png') center top no-repeat scroll;
+    border: 5px solid hsl(177, 70%, 44%);
+}
 #Ricardo{
-    margin: auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
     background: black url('imagens/Background/Ricardo.png') center top no-repeat scroll;
-    background-size: cover;
     border: 5px solid hsl(177, 98%, 20%);
-    box-shadow: 0px 0px 5px black;
-    margin-bottom: 10px;
 }
 .cheff{
     margin: auto;
