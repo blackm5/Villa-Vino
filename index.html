@@ -19,20 +19,14 @@
         <main>
             <section>
                     <!--Entradas--><div><br>
-                        <span>
-                            <picture>
-                                <source media="(max-width= 270px)" srcset="imagens/Imagens de fundo/entradas/Entradas01.1.png" type="image/png">
-                                <img src="imagens/Imagens de fundo/entradas/Entradas01.1.png" alt="Entradas01" id="entradas01">
-                            </picture>
-                        </span>
                         <h1>Entradas</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2><br>
-                            <p><sup><button onclick="Frios()"></button></sup> Carpaccio <span class="preco">79,<sup>90</sup></span></p>
-                                <div id="Frios"></div>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
+                            <p><sup><button onclick="Frios()" onclick="description()"></button></sup> Carpaccio <span class="preco">79,<sup>90</sup></span></p>
+                                <div id="Frios" class="description"></div>
                             <p><sup><button onclick="Brie()"></button></sup> Queijo Brie no Pão <span class="preco">85,<sup>00</sup></span></p>
-                                <div id="Brie"></div>
+                                <div id="Brie" class="description"></div>
                             <p><sup><button onclick="Burrata()"></button></sup> Burrata <span class="preco">85,<sup>00</sup></span></p>
-                                <div id="Burrata"></div>
+                                <div id="Burrata" class="description"></div>
                             <p class="mar"> Porção de Pão <span class="preco">8,<sup>00</sup></span></p>
                             <span>
                                 <picture>
@@ -42,23 +36,36 @@
                             </span>
                             <hr>
                     </div>
-                    <h1><strong>Conchiglione</strong> </h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                    <!--Pratos--><div><h1><strong>Conchiglione</strong> </h1>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
+                        <span>
+                            <picture>
+                                <source media="(max-width= 270px)" srcset="imagens/Imagens de fundo/entradas/Entradas01.1.png" type="image/png">
+                                <img src="imagens/Imagens de fundo/entradas/Entradas01.1.png" alt="Entradas01" id="entradas01">
+                            </picture>
+                        </span><br>
                     <div class="comum" id="conchiglione"></div>
                     <div class="cheff">
                         <p style="text-align: center;">Conchiglione recheado com queijo, bacon e tomate confitado molho bechamel de manjericão.</p>
                     </div>
-                    <h1><strong>Risoto</strong> </h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                    <h1><strong>Risoto</strong></h1>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
+                        <span>
+                            <picture>
+                                <source media="(max-width= 270px)" srcset="imagens/Imagens de fundo/entradas/Entradas01.1.1.png" type="image/png">
+                                <img src="imagens/Imagens de fundo/entradas/Entradas01.1.1.png" alt="Entradas010" id="entradas010">
+                            </picture>
+                        </span><br>
                     <div class="comum" id="risoto"></div>
                     <div class="cheff" >
                         <p style="text-align: center;">Risoto de filé e shitake.</p>
                     </div>
+                    </div>
                     <!--Sobremesa--><div>
                         <h1>Sobremesa</h1>
-                            <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                            <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                                 <p><sup><button onclick="Petit()"></button></sup> Petit Gateau  <span class="preco">35,<sup>00</sup></span></p>
-                                    <div id="Petit"></div>
+                                    <div id="Petit" class="description"></div>
                     </div><hr>
                     <!--Pizzas--><div>
                         <br>
@@ -76,32 +83,32 @@
                             </picture>
                         </span>
                         <h1>Pizzas Salgadas</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                         <h3>Pizzas Napolitana de longa fermentação com molho
                             de tomate italiano caseiro (30 cm)</h3>
                             <p><sup><button onclick="Caprese()"></button></sup> Caprese <span class="preco">69,<sup>90</sup></span></p>
-                                <div id="Caprese"></div>
+                                <div id="Caprese" class="description"></div>
                             <p><sup><button onclick="Capri()"></button></sup> Capri <span class="preco">69,<sup>90</sup></span></p>
-                                <div id="Capri"></div>
+                                <div id="Capri" class="description"></div>
                             <p><sup><button onclick="Toscana()"></button></sup> Toscana  <span class="preco">69,<sup>90</sup></span></p>
-                                <div id="Toscana"></div>
+                                <div id="Toscana" class="description"></div>
                             <p><sup><button onclick="Romana()"></button></sup> Pisa <span class="preco">75,<sup>90</sup></span></p>
-                                <div id="Romana"></div>
+                                <div id="Romana" class="description"></div>
                             <p><sup><button onclick="Royale()"></button></sup> Positano <span class="preco">75,<sup>90</sup></span></p>
-                                <div id="Royale"></div>
+                                <div id="Royale" class="description"></div>
                                 <br>
                         <h1>Pizzas Doces</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                         <h3>(Individual)</h3>
                             <p><sup><button onclick="Cartola()"></button></sup> Cartola <span class="preco">25,<sup>00</sup></span></p>
-                                <div id="Cartola"></div>
+                                <div id="Cartola" class="description"></div>
                             <p><sup><button onclick="Veneza()"></button></sup> Veneza <span class="preco">25,<sup>00</sup></span></p>
-                                <div id="Veneza"></div>
+                                <div id="Veneza" class="description"></div>
                                 <br><hr>
                     </div>
                     <!--Bebidas--><div>
                         <h1>Bebidas</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                             <p>Água mineral <span class="preco">7,<sup>00</sup></span></p>
                             <p>Água mineral com gás <span class="preco">7,<sup>50</sup></span></p>
                             <p>Refrigerante <span class="preco">7,<sup>50</sup></span><br><span class="sub">(Lata)</span></p>
@@ -111,27 +118,27 @@
                     </div><hr>
                     <!--Drinks--><div>
                         <h1>Drinks</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                             <p><sup><button onclick="Caipirosca()"></button></sup> Caipirosca <span class="preco">34,<sup>00</sup></span></p>
-                                <div id="Caipirosca"></div>
+                                <div id="Caipirosca" class="description"></div>
                             <p><sup><button onclick="Moscowmule()"></button></sup> Moscowmule <span class="preco">36,<sup>00</sup></span></p>
-                                <div id="Moscowmule"></div>
+                                <div id="Moscowmule" class="description"></div>
                             <p><sup><button onclick="Aperol()"></button></sup> Aperol <span class="preco">39,<sup>00</sup></span></p>
-                                <div id="Aperol"></div>
+                                <div id="Aperol" class="description"></div>
                             <p><sup><button onclick="Gin()"></button></sup> Limoncello Gin <span class="preco">39,<sup>00</sup></span></p>
-                                <div id="Gin"></div>
+                                <div id="Gin" class="description"></div>
                             <p><sup><button onclick="Clericot()"></button></sup> Clericot <span class="preco">140,<sup>00</sup></span></p>
-                                <div id="Clericot"></div>
+                                <div id="Clericot" class="description"></div>
                                     <div class="figura">
                                     <picture>
-                                        <source media="(max-width= 270px)" srcset="imagens/Imagens de fundo/bebidas/Bebidas0.1.png" type="image/png">
-                                        <img src="imagens/Imagens de fundo/bebidas/Bebidas0.1.png" alt="Bebidas" id="bebidas">
-                                    </picture>      
-                            </div><hr>
+                                        <source media="(max-width= 200px)" srcset="imagens/Imagens de fundo/bebidas/Bebidas0.5.png" type="image/png">
+                                        <img src="imagens/Imagens de fundo/bebidas/Bebidas0.5.png" alt="Bebidas" id="tema2">
+                                    </picture>
+                            </div>
                     </div>
                     <!--Espumantes--><div>
                         <h1>Espumantes</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                             <h3>ITÁLIA</h3>
                                 <p><span class="numeros">01.</span> Gran Dessert<span class="preco">99,<sup>00</sup></span>
                                     <br><span class="subtexto">	Região Norte da Itália</span>
@@ -167,11 +174,15 @@
                                     <br><span class="subtexto"><img src="imagens/icones/barril.png" alt="logo" class="logo"> Método Chamat</span>
                                     <br>
                                         <img src="imagens/Bebidas/Alcoolicas/Espumantes/Brasil/03-brasil.png" alt="04-brasil" class="alcool">
-                                </p><hr>
-                    <!--Brancos--></div>
-                    <div>
+                                </p>          
+                    </div>
+                    <picture>
+                        <source media="(max-width= 200px)" srcset="imagens/Imagens de fundo/bebidas/Bebidas0.2.png" type="image/png">
+                        <img src="imagens/Imagens de fundo/bebidas/Bebidas0.2.png" alt="Bebidas" id="tema2">
+                    </picture>
+                    <!--Brancos--><div>
                         <h1>Brancos</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                         <h3>ESPANHA</h3>
                             <p><span class="numeros">06.</span> Quédate Sauvignon Blanc<span class="preco">105,<sup>00</sup></span>
                                 <br><span class="subtexto">Tierra de Castilla</span>
@@ -205,11 +216,15 @@
                                 <br><span class="subtexto"><img src="imagens/icones/uva.png" alt="logo" class="logo"> Chardonnay</span>
                                 <br>
                                     <img src="imagens/Bebidas/Alcoolicas/Brancos/02-chile.png" alt="10-chile" class="alcool">
-                            </p><hr>
+                            </p>
                     </div>
+                    <picture>
+                        <source media="(max-width= 200px)" srcset="imagens/Imagens de fundo/bebidas/Bebidas0.3.png" type="image/png">
+                        <img src="imagens/Imagens de fundo/bebidas/Bebidas0.3.png" alt="Bebidas" id="tema2">
+                    </picture>
                     <!--Rosé--><div>
                         <h1>Rosés</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                         <h3>CHILE</h3>
                             <p><span class="numeros">11.</span> Casas Del Maipo Rosé<span class="preco">99,<sup>00</sup></span>
                                 <br><span class="subtexto">Valle Del Maule</span>
@@ -229,11 +244,15 @@
                                 <br><span class="subtexto"><img src="imagens/icones/uva.png" alt="logo" class="logo"> Malbec</span>
                                 <br>
                                 <img src="imagens/Bebidas/Alcoolicas/Roses/01-argentina.png" alt="13-argentina" class="alcool">
-                            </p><hr>
+                            </p>
                     </div>
+                    <picture>
+                        <source media="(max-width= 200px)" srcset="imagens/Imagens de fundo/bebidas/Bebidas0.4.png" type="image/png">
+                        <img src="imagens/Imagens de fundo/bebidas/Bebidas0.4.png" alt="Bebidas" id="tema2">
+                    </picture>
                     <!--Tintos--><div>
                         <h1>Tintos</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                         <div>
                             <h3>FRANÇA</h3>
                                 <p><span class="numeros">14.</span> Le Petit Maynne Pinot Noir<span class="preco">160,<sup>00</sup></span>
@@ -441,7 +460,7 @@
                     </div><hr>
                     <!--Meia Garrafa--><div>
                         <h1>Meia Garrafa</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                             <p><span class="numeros">42.</span> Aleixo Garcia Tinto<span class="preco">40,<sup>00</sup></span>
                                 <br><span class="subtexto">Bairrada</span>
                                 <br><span class="subtexto"><img src="imagens/icones/uva.png" alt="logo" class="logo"> Shiraz</span>
@@ -457,7 +476,7 @@
                     </div><hr>
                     <!--Serviços--><div>
                         <h1>Serviços</h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2>
                             <p style="text-decoration: underline;"> <strong>Cobramos Couvert</strong><span class="preco">22,<sup>00</sup></span>
                             </p>
                             <p style="text-decoration: underline;"> <strong>Taxa de Rolha</strong><span class="preco">95,<sup>00</sup></span>
@@ -466,19 +485,23 @@
                             </p>
                     </div><br>
                     <h1><strong>Ana Carolina Moura</strong> </h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2><br>
                     <div class="comum" id="Carolina"></div>
                     <div class="cheff">
                         <p>Gastrônoma formada em 2010, pós graduada em Cozinha e Confeitaria pelo IAG (Instituto Argentino de Gastronomia), pós em docência superior. Chefiou alguns restaurantes de Brasília como Paris 6 sendo chef confeiteira e Primeiro Bar chef executiva. Trabalhou em três temporadas no Cirque du Soleil e  ministrou aulas de gastronomia por 7 anos pelo Instituto Gastronômico das Américas. </p>
                         <p>Atualmente tem seu próprio empreendimento em refeições personalizadas, produção de eventos, festas infantis e agora responsável pelos pratos do <strong>Villa Vino</strong>.</p>
                     </div><br>
                     <h1><strong>Ricardo Russo</strong></h1>
-                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra"></h2>
+                        <h2><img src="imagens/Letras/barra-horizontal.png" alt="barra" class="barra"></h2><br>
                     <div class="comum" id="Ricardo"></div>
                     <div class="cheff">
                         <p>Engenheiro agrônomo de formação e mestre em ciências florestais, virou a própria mesa e, se valendo das suas origens italianas e das memórias afetivas da sua cidade natal, São Paulo, montou um pequeno negócio, a Allegro Pizza Verace, dedicada a proporcionar a melhor experiência com a gastronomia de dividir, desenvolvendo pizzas de longa fermentação, usando produtos naturais e combinações focadas na qualidade dos ingredientes. A excelência das pizzas e seus sabores deliciosos proporcionaram à Allegro Pizza Verace um reconhecimento entre os admiradores da pizza tipo napolitana em Brasília.</p>
                         <p>Atualmente, Chef responsável das pizzas do <strong>Villa Vino</strong>, também produz eventos privados e corporativos.</p>
                     </div><br>
+                    <picture>
+                        <source media="(max-width= 500px)" srcset="imagens/Imagens de fundo/bebidas/Bebidas0.1.png" type="image/png">
+                        <img src="imagens/Imagens de fundo/bebidas/Bebidas0.1.png" alt="Bebidas" id="bebidas">
+                    </picture>
                 </section>
         </main>
     <footer>

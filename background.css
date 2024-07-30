@@ -8,10 +8,19 @@ header {
 #vilavino {
     max-width:300px;
     max-height:177px;}
+.barra{
+    max-width:300px;
+    max-height:300px;
+}
 #entradas01 {
     max-width:60px;
     max-height:90px;
     float: right;
+    margin-top: 0px;}
+#entradas010 {
+    max-width:60px;
+    max-height:90px;
+    float: left;
     margin-top: 0px;}
 #entradas02 {
     max-width:60px;
@@ -25,9 +34,15 @@ header {
     float: right;
     margin-top: 0px;}
 #bebidas {
-    max-width:90px;
-    max-height:120px;
-    margin-left: 20px;}
+    display: block;
+    max-width:505px;
+    max-height:500px;
+    margin: auto;}
+#tema2 {
+    display: block;
+    max-width:100px;
+    max-height:100px;
+    margin: auto;}
 .alcool {
     max-width:200px;
     max-height:60px;}
@@ -35,15 +50,20 @@ header {
     max-width:20px;
     max-height:20px;}
 body {
-    background-image: url(imagens/Background/background.png);
+    background-color: rgb(247, 236, 220);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;}
 section {
     margin-right: 15px;
     margin-left: 15px;
-    background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.700), hsla(179, 37%, 40%, 0.9), hsl(177, 37%, 35%));
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);}
+    background-color: rgb(255, 228, 187);
+    /*background-image: radial-gradient(circle, hsla(179, 38%, 42%, 0.700), hsla(179, 37%, 40%, 0.9), hsl(177, 37%, 35%));*/
+    border: 2px dashed rgb(105, 69, 25);
+    outline: 9px double rgb(255, 228, 187);
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.700);
+}
 .comum{
     margin: auto;
     width: 150px;
@@ -55,37 +75,38 @@ section {
 }
 #conchiglione{
     background: black url('imagens/Background/conchiglione.jpg') center center no-repeat scroll;
-    border: 5px solid hsl(177, 70%, 44%);
+    border: 5px solid rgb(255, 199, 114);
 }
 #risoto{
     background: black url('imagens/Background/risoto.jpg') center center no-repeat scroll;
-    border: 5px solid hsl(177, 70%, 44%);
+    border: 5px solid rgb(255, 167, 35);
 }
 #Carolina{
     background: black url('imagens/Background/Carolina.png') center top no-repeat scroll;
-    border: 5px solid hsl(177, 70%, 44%);
+    border: 5px solid rgb(255, 199, 114);
 }
 #Ricardo{
     background: black url('imagens/Background/Ricardo.png') center top no-repeat scroll;
-    border: 5px solid hsl(177, 98%, 20%);
+    border: 5px solid rgb(255, 167, 35);
 }
 .cheff{
     margin: auto;
     margin: 10px;
     text-indent: 10px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
-    border-radius: 10px;
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(92, 55, 10));
+    color: rgb(255, 228, 187);
+    border-radius: 10px 5px;
 }
 .numeros { 
     height: 15px;
     width: 15px;
-    background-color: #004d4b;
+    background-color: rgb(255, 177, 61);
     border-radius: 100%;
     padding: 5px;
     margin-left: 0px;
     font-size: 0.6em;}
 footer {
-    background-image: radial-gradient(rgba(0, 0, 0, 0.5),black);
+    background-image: radial-gradient(rgba(90, 41, 0, 0.822),rgb(54, 26, 0));
     margin-top: 20px;}
 .footer {
     display: inline;}

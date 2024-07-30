@@ -58,7 +58,7 @@ body {font:
     'ArgentumNovusExtraBold',
     'ArgentumNovusExtraBoldItalic',
     'ArgentumNovusItalic',*/
-    color: white;}
+    color: rgb(105, 69, 25);}
 h1 {
     text-align: center; 
     margin: 0px; 
@@ -74,21 +74,23 @@ h3 {
 p {
     padding: 10px; 
     font-size: 0.8em;}
+hr{border: 1px dashed rgb(105, 69, 25);}
 button {
     background-image: url(imagens/icones/3.png);
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: #00a09d;
+    background-color: rgb(255, 177, 61);
     border-radius: 100%;
     padding: 10px;
-    box-shadow: 2px 2px 5px hsla(178, 100%, 7%, 0.7);}
+    box-shadow: 2px 2px 5px rgb(105, 69, 25);}
 .inforfrios {
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 5px;
         padding: 15px;
         border-radius: 11px;
-        background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+        background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
         font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 /**/.inforfrios::after {content: '(Carpaccio de carne, Molho de mostarda, Queijo parmesão, Alcaparras, Rúcula e uma Porção de pães.)'}
 .inforbrie {
@@ -97,7 +99,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforbrie::after {content: '(Queijo brie no pão artesanal (pão de fabricação própria), coberto por Geleia de morango.)'}
 .inforburrata {
@@ -106,7 +109,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforburrata::after {content: '(Burrata acompanhada de Tomate cereja confitado no azeite com especiarias e Fatias de pães.)'}
 .inforpetit {
@@ -115,7 +119,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforpetit::after {content: 'Petit Gateau de chocolate, acompanhado de Sorvete sabor Pistache Stonia®.'}
 .inforcaprese {
@@ -124,7 +129,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforcaprese::after {content: '(Molho de tomates frescos, Muçarela de búfala, Rodelas de tomate, Pesto de azeitonas pretas e Folhas de manjericão.)'}
 .inforromana {
@@ -133,7 +139,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforromana::after {content: '((Molho de tomates frescos, Muçarela, Presunto de parma e Queijo brie.)'}
 .inforroyale {
@@ -142,7 +149,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforroyale::after {content: '(Molho de tomates frescos, Muçarela, Provolone trufado, Linguiça de lombo desconstruída, Brócolis e Alho frito.)'}
 .inforcapri {
@@ -151,7 +159,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforcapri::after {content: '(Molho de tomates frescos, Muçarela, Carne de sol desfiada, Queijo coalho  e Catupiry original.)'}
 .infortoscana {
@@ -160,7 +169,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .infortoscana::after {content: '(Molho de tomates frescos, Muçarela, Calabresa defumada e Cebola roxa.)'}
 .inforcartola {
@@ -169,7 +179,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforcartola::after {content: '(Banana caramelada, Queijo muçarela, Finalizada com canela  e açúcar.)'}
 .inforveneza {
@@ -178,7 +189,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforveneza::after {content: '(Uva verde, Queijo muçarela, Ganache  e Chocolate.)'}
 .inforcaipirosca {
@@ -187,7 +199,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforcaipirosca::after {content: 'Sabores: Abacaxi, Morango, ou dois Limões taiti e siciliano. (Vodka, fruta e açucar.)'}
 .informoscowmule {
@@ -196,7 +209,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .informoscowmule::after {content: '(Vodka, Suco de limão, Água com gás, Espuma de gengibre.)'}
 .inforaperol {
@@ -205,7 +219,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforaperol::after {content: '(Espumante, Aperol, Água com gás e Rodela de laranja.)'}
 .inforgin {
@@ -214,7 +229,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforgin::after {content: '(Gin, Tônica, Limoncello artesanal, Feito a mão em Santa Catarina.)'}
 .inforclericot {
@@ -223,7 +239,8 @@ button {
     margin-bottom: 5px;
     padding: 15px;
     border-radius: 11px;
-    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+    background-image: radial-gradient(circle, rgba(109, 70, 22, 0.767), rgb(90, 54, 10));
+        color: rgb(255, 228, 187);
     font: italic normal 12px 'ArgentumNovusLight', 'ArgentumNovusExtraLight', 'ArgentumNovusThin', 'ArgentumNovusThinItalic', 'ArgentumNovusExtraLightItalic';}
 .inforclericot::after {content: 'Jarra (Espumante e Frutas).'}
 .preco {
