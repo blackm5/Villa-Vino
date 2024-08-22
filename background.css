@@ -65,15 +65,15 @@ section {
 }
 .comum{
     margin: auto;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 100%;
     background-size: cover;
     box-shadow: 0px 0px 5px black;
     margin-bottom: 10px;
 }
 #conchiglione{
-    background: black url('imagens/Background/conchiglione.jpg') center center no-repeat scroll;
+    background: black url('imagens/Background/conchiglione.png') center center no-repeat scroll;
     border: 5px solid rgb(255, 199, 114);
 }
 #risoto{
